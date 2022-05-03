@@ -54,7 +54,7 @@ class BookInstance(models.Model):
     """
     id = models.UUIDField(primary_key=True, unique=True, default=uuid.uuid4, editable=False)
     book = models.ForeignKey('Book', on_delete=models.SET_NULL, null=True)
-    due_back = models.DateField('Когда будет доступна', null=True, blank=True)
+    due_back = models.DateField('Дата возврата', null=True, blank=True)
     STATUS_CHOICES = (
         (StatusBookInstance.MAINTENANCE, 'Техническое обслуживание'),
         (StatusBookInstance.ON_LOAN, 'В аренде'),
