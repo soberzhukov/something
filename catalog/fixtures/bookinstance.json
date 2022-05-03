@@ -1,0 +1,56 @@
+[
+  {
+    "model": "catalog.BookInstance",
+    "pk": "e2240e5e-cb14-11ec-9d64-0242ac120002",
+    "fields": {
+      "book": "5a46b1aa-cb12-11ec-9d64-0242ac120002",
+      "due_back": null,
+      "status": "a"
+    }
+  },
+  {
+    "model": "catalog.BookInstance",
+    "pk": "e5aa365c-cb14-11ec-9d64-0242ac120002",
+    "fields": {
+      "book": "5a46b1aa-cb12-11ec-9d64-0242ac120002",
+      "due_back": null,
+      "status": "a"
+    }
+  },
+    {
+    "model": "catalog.BookInstance",
+    "pk": "e83fffa0-cb14-11ec-9d64-0242ac120002",
+    "fields": {
+      "book": "5e74186c-cb12-11ec-9d64-0242ac120002",
+      "due_back": "2023-10-22",
+      "status": "m"
+    }
+  },
+    {
+    "model": "catalog.BookInstance",
+    "pk": "eb258c12-cb14-11ec-9d64-0242ac120002",
+    "fields": {
+      "book": "61bb83a2-cb12-11ec-9d64-0242ac120002",
+      "due_back": "2024-02-11",
+      "status": "o"
+    }
+  },
+    {
+    "model": "catalog.BookInstance",
+    "pk": "ee8eb2c0-cb14-11ec-9d64-0242ac120002",
+    "fields": {
+      "book": "64d86b86-cb12-11ec-9d64-0242ac120002",
+      "due_back": "2024-05-29",
+      "status": "o"
+    }
+  },
+    {
+    "model": "catalog.BookInstance",
+    "pk": "f225b7bc-cb14-11ec-9d64-0242ac120002",
+    "fields": {
+      "book": "64d86b86-cb12-11ec-9d64-0242ac120002",
+      "due_back": "2023-01-12",
+      "status": "o"
+    }
+  }
+]

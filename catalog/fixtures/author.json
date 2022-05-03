@@ -1,0 +1,42 @@
+[
+  {
+    "model": "catalog.Author",
+    "pk": "fba05904-cb10-11ec-9d64-0242ac120002",
+    "fields": {
+      "first_name": "Владимир",
+      "last_name": "Сорокин",
+      "date_of_birth": "1877-01-30",
+      "date_of_death": "1927-06-25"
+    }
+  },
+  {
+    "model": "catalog.Author",
+    "pk": "ff074bf2-cb10-11ec-9d64-0242ac120002",
+    "fields": {
+      "first_name": "Юрий",
+      "last_name": "Зотов",
+      "date_of_birth": "1905-11-29",
+      "date_of_death": "1977-05-11"
+    }
+  },
+    {
+    "model": "catalog.Author",
+    "pk": "01e2757c-cb11-11ec-9d64-0242ac120002",
+    "fields": {
+      "first_name": "Софья",
+      "last_name": "Степанова",
+      "date_of_birth": "1931-11-27",
+      "date_of_death": "1969-10-22"
+    }
+  },
+    {
+    "model": "catalog.Author",
+    "pk": "053be690-cb11-11ec-9d64-0242ac120002",
+    "fields": {
+      "first_name": "Михаил",
+      "last_name": "Фетисов",
+      "date_of_birth": "1926-10-30",
+      "date_of_death": "1972-01-01"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "model": "catalog.Genre",
+    "pk": "dd8e36ee-cb0f-11ec-9d64-0242ac120002",
+    "fields": {
+      "name": "Фэнтези"
+    }
+  },
+  {
+    "model": "catalog.Genre",
+    "pk": "e2d12238-cb0f-11ec-9d64-0242ac120002",
+    "fields": {
+      "name": "Фантастика"
+    }
+  },
+    {
+    "model": "catalog.Genre",
+    "pk": "d2fa82aa-cb0f-11ec-9d64-0242ac120002",
+    "fields": {
+      "name": "Детективы"
+    }
+  },
+    {
+    "model": "catalog.Genre",
+    "pk": "d582267c-cb0f-11ec-9d64-0242ac120002",
+    "fields": {
+      "name": "Любовные романы"
+    }
+  }
+]
