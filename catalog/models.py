@@ -54,7 +54,6 @@ class BookInstance(models.Model):
     """
     id = models.UUIDField(primary_key=True, unique=True, default=uuid.uuid4, editable=False)
     book = models.ForeignKey('Book', on_delete=models.SET_NULL, null=True)
-    imprint = models.CharField(max_length=200)
     due_back = models.DateField('Когда будет доступна', null=True, blank=True)
     STATUS_CHOICES = (
         (StatusBookInstance.MAINTENANCE, 'Техническое обслуживание'),
