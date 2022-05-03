@@ -67,6 +67,8 @@ class BookInstance(models.Model):
 
     class Meta:
         ordering = ["due_back"]
+        verbose_name = 'Экземпляр'
+        verbose_name_plural = 'Экземпляры'
 
     def __str__(self):
         return f'{self.id}, {self.book.title}'
@@ -82,8 +84,12 @@ class Author(models.Model):
     date_of_birth = models.DateField('Дата рождения', null=True, blank=True)
     date_of_death = models.DateField('Дата смерти', null=True, blank=True)
 
-    def get_absolute_url(self):
-        return reverse('author-detail', args=[str(self.id)])
+    class Meta:
+        verbose_name = 'Автор'
+        verbose_name_plural = 'Авторы'
 
     def __str__(self):
         return f'{self.last_name}, {self.first_name}'
+
+    def get_absolute_url(self):
+        return reverse('author-detail', args=[str(self.id)])
